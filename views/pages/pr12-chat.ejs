@@ -16,6 +16,7 @@
         <button onclick="postMessage()">Send</button>
         <input type="hidden" value="<%= user %>" name="user" id="user">
     </div>
+    <button class="logout-btn" onclick="logout()">Log out</button>
     <% } else { %>
     <p>No login, view only.</p>
     <% } %>

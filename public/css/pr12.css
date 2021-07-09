@@ -1,7 +1,7 @@
 .container {
     height: 80vh;
     overflow-y: auto;
-    width: 50%;
+    width: 90%;
 }
 
 .container ul {
@@ -35,8 +35,8 @@ ul.chat li.uMessage {
 }
 
 .input textarea {
-    border: solid #000000 0.5rem;
-    width: 75%;
+    /* border: solid #000000 0.5rem; */
+    width: 100%;
 }
 
 .displayname {
